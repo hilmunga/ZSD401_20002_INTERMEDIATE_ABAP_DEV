@@ -1,0 +1,1 @@
+ABAP Intermediate Training project on learning.sap.com.
