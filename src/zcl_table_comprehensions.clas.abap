@@ -15,7 +15,7 @@ ENDCLASS.
 CLASS zcl_table_comprehensions IMPLEMENTATION.
 
 
-  METHOD if_oo_adt_classrun~main.
+ METHOD if_oo_adt_classrun~main.
 
 TYPES: BEGIN OF t_connection,
 carrier_id TYPE /dmo/carrier_id,
