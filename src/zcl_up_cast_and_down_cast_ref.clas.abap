@@ -1,17 +1,21 @@
-class ZCL_UP_CAST_AND_DOWN_CAST_REF definition
-  public
-  final
-  create public .
+CLASS zcl_up_cast_and_down_cast_ref DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
-protected section.
-private section.
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZCL_UP_CAST_AND_DOWN_CAST_REF IMPLEMENTATION.
-class oo_adt_class~run main
+CLASS zcl_up_cast_and_down_cast_ref IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
 
 DATA passenger TYPE REF TO lcl_passenger_Plane.
 DATA cargo TYPE REF TO lcl_cargo_plane.
@@ -60,134 +64,3 @@ ENDIF.
 ENDMETHOD.
 
 ENDCLASS.
-
-CLASS lcl_plane DEFINITION.
-PUBLIC SECTION.
-
-TYPES: BEGIN OF ts_attributes,
-name TYPE string,
-value TYPE string,
-END OF ts_attributes,
-* declare table - do not allow the same attribute to be used more than once
-tt_attributes TYPE SORTED TABLE OF ts_attributes WITH UNIQUE KEY name.
-
-
-METHODS constructor 
-IMPORTING 
-iv_manufacturer TYPE string
-iv_type TYPE string.
-METHODS: get_Attributes 
-RETURNING VALUE(rt_Attributes) TYPE tt_attributes.
-
-
-PROTECTED SECTION.
-DATA manufacturer TYPE string.
-DATA type TYPE string.
-
-PRIVATE SECTION.
-
-ENDCLASS.
-
-
-CLASS lcl_plane IMPLEMENTATION.
-
-METHOD constructor.
-manufacturer = iv_manufacturer.
-type = iv_type.
-ENDMETHOD.
-
-
-METHOD get_attributes.
-rt_attributes = VALUE #( ( name = 'MANUFACTURER' value = manufacturer )
-( name = 'TYPE' value = type ) ) .
-ENDMETHOD.
-
-
-ENDCLASS.
-
-
-CLASS lcl_cargo_plane DEFINITION INHERITING FROM lcl_plane.
-PUBLIC SECTION.
-METHODS constructor IMPORTING iv_manufacturer TYPE string
-iv_type TYPE string
-iv_cargo TYPE i.
-METHODS get_attributes REDEFINITION.
-private section.
-data cargo type i.
-ENDCLASS.
-
-
-*CLASS lcl_cargo_plane IMPLEMENTATION.
-*METHOD constructor.
-*
-*
-*super->constructor( iv_manufacturer = iv_manufacturer iv_type = iv_type ).
-*cargo = iv_cargo.
-*
-*
-*ENDMETHOD.
-*
-*
-*METHOD get_attributes.
-*
-*
-** method uses protected attributes of superclass
-*
-*
-*rt_attributes = value #( ( name = 'MANUFACTURER' value = manufacturer )
-*( name = 'TYPE' value = type )
-*( name ='CARGO' value = cargo ) ).
-*
-*
-*ENDMETHOD.
-*
-*
-*ENDCLASS.
-
-
-CLASS lcl_passenger_plane DEFINITION INHERITING FROM lcl_plane.
-PUBLIC SECTION.
-METHODS constructor 
-IMPORTING
- iv_manufacturer TYPE string
-iv_type TYPE string
-iv_seats TYPE i.
-
-METHODS get_Attributes REDEFINITION.
-
-private section.
-
-data seats type i.
-
-ENDCLASS.
-
-
-*CLASS lcl_passenger_plane IMPLEMENTATION.
-*
-*
-*METHOD constructor.
-*
-*
-*super->constructor( iv_manufacturer = iv_manufacturer iv_type = iv_type ).
-*seats = iv_seats.
-*
-*
-*
-*ENDMETHOD.
-*
-*
-*METHOD get_attributes.
-*
-*
-** Redefinition uses call of superclass implementation
-*
-*rt_attributes = super->get_attributes( ).
-*rt_Attributes = value #( base rt_attributes ( name = 'SEATS' value = seats ) ).
-*
-*ENDMETHOD.
-*
-*ENDCLASS.
-*"* use this source file for any type of declarations (class
-*"* definitions, interfaces or type declarations) you need for
-*"* components in the private section
-
