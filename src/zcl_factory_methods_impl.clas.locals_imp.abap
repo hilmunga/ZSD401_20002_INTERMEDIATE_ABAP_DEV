@@ -12,7 +12,9 @@ fromAirport TYPE /dmo/airport_from_id
 toAirport TYPE /dmo/airport_to_id.
 
 
-CLASS-METHODS get_connection IMPORTING airlineId TYPE /dmo/carrier_id
+CLASS-METHODS get_connection
+IMPORTING
+airlineId TYPE /dmo/carrier_id
 connectionNumber TYPE /dmo/connection_id
 RETURNING VALUE(ro_connection) TYPE REF TO lcl_Connection.
 
