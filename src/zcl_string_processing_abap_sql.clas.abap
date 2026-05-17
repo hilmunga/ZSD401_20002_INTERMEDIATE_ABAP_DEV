@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_string_processing_abap_sql IMPLEMENTATION.
+CLASS ZCL_STRING_PROCESSING_ABAP_SQL IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

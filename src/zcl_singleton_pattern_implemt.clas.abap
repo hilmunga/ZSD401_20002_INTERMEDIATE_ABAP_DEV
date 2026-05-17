@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_singleton_pattern_implemt IMPLEMENTATION.
+CLASS ZCL_SINGLETON_PATTERN_IMPLEMT IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

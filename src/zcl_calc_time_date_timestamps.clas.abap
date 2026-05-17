@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_calc_time_date_timestamps IMPLEMENTATION.
+CLASS ZCL_CALC_TIME_DATE_TIMESTAMPS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

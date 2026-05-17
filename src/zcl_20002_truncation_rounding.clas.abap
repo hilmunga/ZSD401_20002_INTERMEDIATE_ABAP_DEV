@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_20002_truncation_rounding IMPLEMENTATION.
+CLASS ZCL_20002_TRUNCATION_ROUNDING IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

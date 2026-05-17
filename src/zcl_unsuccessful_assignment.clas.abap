@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_unsuccessful_assignment IMPLEMENTATION.
+CLASS ZCL_UNSUCCESSFUL_ASSIGNMENT IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

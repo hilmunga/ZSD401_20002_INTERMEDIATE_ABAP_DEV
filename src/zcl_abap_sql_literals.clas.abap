@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_abap_sql_literals IMPLEMENTATION.
+CLASS ZCL_ABAP_SQL_LITERALS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

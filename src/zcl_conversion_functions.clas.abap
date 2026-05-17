@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_conversion_functions IMPLEMENTATION.
+CLASS ZCL_CONVERSION_FUNCTIONS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

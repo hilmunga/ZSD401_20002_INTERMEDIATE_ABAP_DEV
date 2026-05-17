@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_inheritance_implement IMPLEMENTATION.
+CLASS ZCL_INHERITANCE_IMPLEMENT IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_sort_statement IMPLEMENTATION.
+CLASS ZCL_SORT_STATEMENT IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

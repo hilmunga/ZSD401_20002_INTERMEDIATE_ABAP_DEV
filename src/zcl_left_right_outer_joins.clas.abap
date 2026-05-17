@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_left_right_outer_joins IMPLEMENTATION.
+CLASS ZCL_LEFT_RIGHT_OUTER_JOINS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

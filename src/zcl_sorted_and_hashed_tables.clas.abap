@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_sorted_and_hashed_tables IMPLEMENTATION.
+CLASS ZCL_SORTED_AND_HASHED_TABLES IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

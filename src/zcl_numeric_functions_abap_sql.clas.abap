@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_numeric_functions_abap_sql IMPLEMENTATION.
+CLASS ZCL_NUMERIC_FUNCTIONS_ABAP_SQL IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

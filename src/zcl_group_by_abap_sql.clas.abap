@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_group_by_abap_sql IMPLEMENTATION.
+CLASS ZCL_GROUP_BY_ABAP_SQL IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

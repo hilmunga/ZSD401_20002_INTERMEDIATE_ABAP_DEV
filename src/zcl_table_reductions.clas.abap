@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_table_reductions IMPLEMENTATION.
+CLASS ZCL_TABLE_REDUCTIONS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

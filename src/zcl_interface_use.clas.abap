@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_interface_use IMPLEMENTATION.
+CLASS ZCL_INTERFACE_USE IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

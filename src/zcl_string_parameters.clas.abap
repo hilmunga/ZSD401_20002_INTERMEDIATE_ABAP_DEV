@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_string_parameters IMPLEMENTATION.
+CLASS ZCL_STRING_PARAMETERS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

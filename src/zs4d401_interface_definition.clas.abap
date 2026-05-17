@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zs4d401_interface_definition IMPLEMENTATION.
+CLASS ZS4D401_INTERFACE_DEFINITION IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_up_cast_and_down_cast_ref IMPLEMENTATION.
+CLASS ZCL_UP_CAST_AND_DOWN_CAST_REF IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
@@ -62,5 +62,4 @@ ENDIF.
 
 
 ENDMETHOD.
-
 ENDCLASS.

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_factory_methods_impl IMPLEMENTATION.
+CLASS ZCL_FACTORY_METHODS_IMPL IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_assign_correct IMPLEMENTATION.
+CLASS ZCL_ASSIGN_CORRECT IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

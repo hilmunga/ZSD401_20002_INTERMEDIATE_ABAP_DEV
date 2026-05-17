@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_delete_duplicate_records IMPLEMENTATION.
+CLASS ZCL_DELETE_DUPLICATE_RECORDS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

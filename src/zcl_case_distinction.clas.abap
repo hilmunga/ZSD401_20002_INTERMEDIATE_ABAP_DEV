@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_case_distinction IMPLEMENTATION.
+CLASS ZCL_CASE_DISTINCTION IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

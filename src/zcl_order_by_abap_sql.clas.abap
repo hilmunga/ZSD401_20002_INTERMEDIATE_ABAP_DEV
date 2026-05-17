@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_order_by_abap_sql IMPLEMENTATION.
+CLASS ZCL_ORDER_BY_ABAP_SQL IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

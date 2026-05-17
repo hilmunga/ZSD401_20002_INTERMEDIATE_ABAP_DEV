@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_aggregate_functions IMPLEMENTATION.
+CLASS ZCL_AGGREGATE_FUNCTIONS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_date_processing_abap_sql IMPLEMENTATION.
+CLASS ZCL_DATE_PROCESSING_ABAP_SQL IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

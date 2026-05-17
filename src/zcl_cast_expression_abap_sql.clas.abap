@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_cast_expression_abap_sql IMPLEMENTATION.
+CLASS ZCL_CAST_EXPRESSION_ABAP_SQL IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

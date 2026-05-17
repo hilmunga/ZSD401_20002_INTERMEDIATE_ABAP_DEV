@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_avoid_truncate_and_roundof IMPLEMENTATION.
+CLASS ZCL_AVOID_TRUNCATE_AND_ROUNDOF IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

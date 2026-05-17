@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_table_comprehensions IMPLEMENTATION.
+CLASS ZCL_TABLE_COMPREHENSIONS IMPLEMENTATION.
 
 
  METHOD if_oo_adt_classrun~main.

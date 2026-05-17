@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_exception_class_impl IMPLEMENTATION.
+CLASS ZCL_EXCEPTION_CLASS_IMPL IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
